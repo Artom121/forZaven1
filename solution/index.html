@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Конструктор резюме</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <div class="main-info-wrapper disable" id ='resume' test-id="resume-main-content">
+      <button test-id="back-button" id="back-button" class="back-button">Вернуться к форме создания резюме</button>
+      <button test-id="save-button" id="save-button" class="save-button">Сохранить резюме</button>
+      <article class="first-main-info" test-id="resume-main-article">
+        <img src="./images/photo.jpg" alt="image" class="profile-image">
+        <section class="first-main-section" test-id="resume-main-section">
+          <h6>Личные данные</h6>
+          <hr>
+          <div class="first-main-section-content">
+            <div>
+              <p>ФИО</p>
+              <p id="page_username"></p>
+            </div>
+            <div>
+              <p>Дата рождения</p>
+              <p id="page_data">05.05.1986</p>
+            </div>
+            <div>
+              <p>Город</p>
+              <p id="page_city">Ижевск</p>
+            </div>
+            <div>
+              <p>Номер телефона</p>
+              <p id="page_tel">+7 (234) 228-18-15</p>
+            </div>
+            <div>
+              <p>Email</p>
+              <p id="page_email">beautifulfly@yandex.ru</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="second-main-section" test-id="resume-main-section">
+          <h6>Интересы</h6>
+          <hr>
+          <div class="second-main-section-content" id="interest_section">
+            <!-- <p>Хороший лидер</p>
+            <p>Занимаюсь спортом</p>
+            <p>Строительные практики</p>
+            <p>Выпускал журналы</p> -->
+          </div>
+        </section>
+
+        <section class="third-main-section" test-id="resume-main-section">
+          <h6>Языки</h6>
+          <hr>
+          <div class="third-main-section-content" id="lang_section">
+            <!-- <div class="statement-mark">
+              <p>Английский</p>
+              <p>C1</p>
+            </div>
+            <div class="statement-mark">
+              <p>Испанский</p>
+              <p>B2</p>
+            </div> -->
+          </div>
+        </section>
+      </article>
+
+      <article class="second-main-info" test-id="resume-main-article">
+        <h1 id="main_pageName"></h1>
+        <section test-id="resume-main-section">
+          <hr class="h1-hr">
+          <p id="page_description"></p>
+        </section>
+
+        <section test-id="resume-main-section">
+          <h2>Опыт работы</h2>
+          <hr>
+          <div class="resume-info-container" id="job_section">
+            <!-- <div class="resume-info">
+              <div>
+                <p>C++ разработчик</p>
+                <p>сентябрь 2020 г. — наст. время</p>
+              </div>
+              <p>ООО Рога и Копыта, Москва</p>
+              <p>Писал компилятор под js, который позволял ускорить билд приложений.</p>
+            </div> -->
+            <!-- <div class="resume-info">
+              <div>
+                <p>Angular-разработчик</p>
+                <p>февраль 2020 г. — август 2020 г.</p>
+              </div>
+              <p>Тинькофф Центр Разработки, Ижевск</p>
+              <p>Придумывал аналитические решения и разрабатывал веб-сайты для улучшения опыта пользователей.</p>
+            </div> -->
+          </div>
+        </section>
+
+        <section test-id="resume-main-section">
+          <h2>Образование и квалификация</h2>
+          <hr>
+          <div class="resume-info-container" id="education_section">
+            <div class="resume-info">
+              <!-- <div>
+                <p>Магистратура</p>
+                <p>сентябрь 2020 г. — наст. время</p>
+              </div>
+                <p>ЦУ, Москва</p>
+                <p>Писал компилятор под js, который позволял ускорить билд приложений.</p>
+            </div>
+            <div class="resume-info">
+              <div>
+                <p>Бакалавриат</p>
+                <p>февраль 2020 г. — август 2020 г.</p>
+              </div>
+              <p>Уральский федеральный университет, Екатеринбург</p>
+              <p>Направление: МОАИС.</p>
+            </div> -->
+          </div>
+        </section>
+
+        <section test-id="resume-main-section">
+          <h2>Курсы</h2>
+          <hr>
+          <div class="resume-info-container" id="courses_section">
+            <!-- <div class="resume-info">
+              <div>
+                <p>Школа промышленной разработки</p>
+                <p>январь 2021 г. — май 2021 г.</p>
+              </div>
+              <p>Известная компания</p>
+            </div>
+            <div class="resume-info">
+              <div>
+                <p>Основы JavaScript, HTML, CSS</p>
+                <p>февраль 2020 г. — август 2020 г.</p>
+              </div>
+              <p>ЦУ</p>
+            </div>
+            <div class="resume-info">
+              <div>
+                <p>Разработка на C++</p>
+                <p>январь 2019 г. — январь 2020 г.</p>
+              </div>
+              <p>Образование для Всех</p>
+            </div> -->
+          </div>
+        </section>
+      </article>
+    </div>
+        
+    <div class="form" id="form" test-id="resume-builder">
+        <h1 test-id="resume-form-title">Конструктор резюме</h1>
+
+        <div id="resumeName">
+          <label for="">Название</label>
+          <input type="text" name="name" id="resume_name" test-id="resume-title-field">
+        </div>
+
+        <div id="username">
+          <label for="personal_data">ФИО</label>
+          <input type="text" name="personal_data" id="personal_data" test-id="personal-info" placeholder="ФИО">
+        </div>
+          
+        <div id="dateofbirth">
+          <label for="birthday">Дата рождения</label>
+          <input type="date" name="birthday" id="birthday" test-id="personal-info" placeholder="Дата рождения">
+        </div>
+
+        <div id="user-city">
+          <label for="city">Город</label>
+          <input type="text" name="city" id="city" placeholder="Город" test-id="personal-info">
+        </div>
+
+        <div id="user-phone">
+          <label for="phone_number">Номер телефона</label>
+          <input type="tel" name="phone_number" id="phone_number" placeholder="Номер телефона" test-id="personal-info">
+        </div>
+
+        <div id="user-email">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Email" test-id="personal-info">
+        </div>
+
+        <div id='interest'>
+          <label for="interest">Интересы</label>
+          <div id="inputsContainer">
+            <input class="interestInput" test-id="interest"></input>
+          </div>
+          <button id="interestBtnAdd" test-id="add-interest">Добавить</button>
+          <button id="interestBtnRemove" test-id="remove-interest">Удалить</button>
+        </div>
+
+        <div id="languages">
+          <label for="">Языки</label>
+          <div>
+            <div id="langDivContainer">
+              <div class="langDiv"><input type="text" placeholder="Язык" test-id="language-name"><input type="text" placeholder="Уровень владения" test-id="language-level"></div>
+            </div>
+            <button id="langBtnAdd" test-id="add-language">Добавить</button>
+            <button id="langBtnRemove" test-id="remove-language">Удалить</button>
+          </div>
+        </div>
+
+        <div>
+          <label for="">Описание</label>
+          <input type="text" name="description" test-id="personal-description">
+        </div>
+
+        <div id="experience">
+          <label for="">Опыт работы</label>
+          <div id="jobDivContainer">
+            <div class="jobDiv">
+              <input type="text" name="exppost" placeholder="Должность" test-id="job-title">
+              <input type="date" name="expstartdate" test-id="job-date-start"><input type="date" name="expenddate" test-id="job-date-end">
+              <input type="text" name="expworkplace" test-id="job-place" placeholder="Место работы">
+              <input type="text" name="expworkdescription" test-id="job-description" placeholder="Доп. информация">
+            </div>
+          </div>
+          <button id="jobBtnAdd" test-id="add-job">Добавить</button>
+          <button id="jobBtnRemove" test-id="remove-job">Удалить</button>
+        </div>
+
+        <div id="education">
+          <label for="">Образование и квалификация</label>
+          <div id="eduDivContainer">
+            <div class="eduDiv">
+              <input type="text" name="edupost" test-id="education-title" placeholder="Образование">
+              <input type="date" name="edustartdate" test-id="education-date-start"><input type="date" name="eduenddate" test-id="education-date-end">
+              <input type="text" name="eduworkplace" test-id="education-place" placeholder="Место обучения">
+              <input type="text" name="eduworkdescription" test-id="education-description" placeholder="Доп. информация">
+            </div>
+          </div>
+          <button id="eduBtnAdd" test-id="add-education">Добавить</button>
+          <button id="eduBtnRemove" test-id="remove-education">Удалить</button>
+        </div>
+
+        <div id="courses">
+          <label for="">Курсы</label>
+          <div id="courseDivContainer">
+            <div class="courseDiv">
+              <input type="text" name="coursepost" test-id="course-title" placeholder="Курсы">
+              <input type="date" name="coursestartdate" test-id="course-date-start"><input type="date" name="courseenddate" test-id="course-date-end">
+              <input type="text" name="coursedescription" test-id="course-place" placeholder="Авторы курса">
+            </div>
+          </div>
+          <button id="courseBtnAdd" test-id="add-course">Добавить</button>
+          <button id="courseBtnRemove" test-id="remove-course">Удалить</button>
+        </div>
+
+        <button test-id="generate-resume" id="generate-resume" disabled>Просмотр резюме</button>
+
+    </div>
+
+
+
+
+
+  <script src="./scripts/index.js"></script>
+  </body>
+</html>

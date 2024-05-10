@@ -1,0 +1,265 @@
+.disable {
+  display: none !important;
+}
+
+body * {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 861.88px;
+}
+
+.back-button{
+  margin: 0px 1000px 786px 0px;
+  position: absolute;
+  width: 100px;
+}
+
+.save-button {
+  margin: 0px 1000px 686px 0px;
+  position: absolute;
+  width: 100px;
+}
+
+/* Страница с резюме */
+
+.main-info-wrapper {
+  width: 900px;
+  height: 853.88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Правая часть */
+
+.first-main-info {
+  width: 256px;
+  height: 100%;
+  background-color: #6495ED;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-main-info section {
+  margin: 0 16px;
+}
+
+.profile-image {
+  height: 12.5rem;
+  width: 12.5rem;
+  border-radius: 50%;
+  margin: 1rem 1.75rem;
+}
+
+.first-main-info {
+  color: white;  
+}
+
+
+/* Первая секция */
+
+.first-main-section {
+  height: 296px;
+  width: 224px;
+}
+
+.first-main-section h6 {
+  font-weight: 700;
+  font-size: 15.9px;
+  margin: 14.9px 96px 15.1px 0px;
+}
+
+.first-main-section hr {
+  width: 224px;
+  margin-bottom: 20px;
+} 
+
+.first-main-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.first-main-section-content div p:first-child {
+  font-weight: 700;
+  font-size: 13.3px;
+  margin-bottom: 0.92px;
+}
+
+.first-main-section-content div p:last-child {
+  font-weight: 400;
+  font-size: 12.5px;
+}
+
+/* Вторая секция */
+
+.second-main-section {
+  height: 179px;
+  width: 224px;
+}
+
+.second-main-section h6 {
+  font-weight: 700;
+  font-size: 15.9px;
+  margin: 14.9px 145px 15.1px 0px;
+}
+
+.second-main-section hr {
+  width: 224px;
+  margin-bottom: 20px;
+}
+
+.second-main-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10.68px;
+  font-weight: 700;
+  font-size: 13.3px;
+}
+
+
+/* Третья секция */
+
+.third-main-section {
+  height: 125px;
+  width: 224px;
+}
+
+.third-main-section h6 {
+  font-size: 15.9px;
+  margin: 14.9px 173px 15.1px 0px;
+}
+
+.third-main-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.statement-mark {
+  display: flex;
+  justify-content:space-between;
+}
+
+.statement-mark p:first-child {
+  font-size: 13.3px;
+  font-weight: 700;
+}
+
+.statement-mark p:last-child {
+  font-size: 12.5px;
+  font-weight: 400;
+}
+
+
+/* Правая часть */
+
+.second-main-info {
+  width: 71.6%;
+  height: 100%;
+  background-color: #F8F8F8;
+}
+
+.second-main-info section:nth-child(2) {
+  margin-top: 30px;
+  height: 57.38px;
+  margin-bottom: 16px;
+}
+
+.second-main-info section:nth-child(3) {
+  height: 258.75px;
+}
+
+.second-main-info section:nth-child(4) {
+  height: 243.75px;
+}
+
+.second-main-info section:nth-child(5) {
+  height: 206px;
+}
+
+.second-main-info section {
+  margin-left: 16px;
+  width: 605px;
+}
+
+.second-main-info h1{
+  font-weight: 700;
+  font-size: 28px;
+  margin: 26.7px 0px 27.3px 16px;
+}
+
+.second-main-info section h2 {
+  font-size: 15.9px;
+}
+
+.second-main-info .h1-hr {
+  margin-bottom: 13.19px;
+}
+
+.second-main-info hr {
+  width: 612px;
+  margin-top: 16.1px;
+  margin-bottom: 19px;
+}
+
+.second-main-info p {
+  font-weight: 400;
+  font-size: 12.5px;
+}
+
+.resume-info {
+  margin-bottom: 12px;
+}
+
+.resume-info div p:first-child{
+  font-weight: 700;
+  font-size: 13.3px;
+}
+
+.resume-info div ~ p {
+  font-style: italic ;
+}
+
+.resume-info div ~ p ~ p{
+  font-style: normal ;
+}
+
+.resume-info > p{
+  margin-bottom: 8.43px;
+  width: 511px;
+}
+
+.resume-info div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Форма */
+
+.form > * {
+  margin: 20px 0px;
+}
+
+.form h1 {
+  display: block;
+  /* width: 764px; */
+  /* height: 38px; */
+  font-size: 30px;
+}
+

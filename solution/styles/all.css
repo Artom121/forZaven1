@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.show {
+    display: none;
+}
+
+.dropdown {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.dropdown-content {
+    background-color: beige;
+}
+
+button[title='Добавить'] {
+    width: 25px;
+    height: 25px;
+}
+
+.copymodal {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -40px;
+}
